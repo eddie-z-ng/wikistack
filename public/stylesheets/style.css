@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+  font-family: 'Crafty Girls', 'cursive';
+}
+
+h1 {
+   font-family: 'Crafty Girls', 'cursive';
+}
+
+body {
+  padding: 50px;
+
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+}
+
+a {
+  color: #00B7FF;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}

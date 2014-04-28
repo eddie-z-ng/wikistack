@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h1>{{title}}</h1>
+    <hr>
+    <form role="form" action="/add/submit" method="post">
+      <div class="form-group">
+        <label for="pageTitle">PAGE TITLE</label>
+        <input name="pageTitle" type="text" class="form-control" id="pageTitle" placeholder="Enter page title">
+      </div>
+      <div class="form-group">
+        <label for="pageContent">PAGE CONTENT</label>
+        <textarea name="pageContent" class="form-control" id="pageContent" placeholder="Enter page content" rows="20"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">SUBMIT</button>
+    </form>
+{% endblock %}
